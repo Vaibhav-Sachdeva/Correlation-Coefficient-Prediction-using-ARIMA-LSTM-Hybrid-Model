@@ -20,7 +20,7 @@ For the purpose of this paper, we consider the S&P500 firms adjusted closing pri
 
 ## Results
 <p align="center">
-  <img src="https://github.com/Vaibhav-Sachdeva/Vaibhav-Sachdeva/blob/main/Images/arima.PNG" width="600"/>
+  <img src="https://github.com/Vaibhav-Sachdeva/Vaibhav-Sachdeva/blob/main/Images/arima.PNG" width="500"/>
 </p>
 We compared the metric values of the developed hybrid model with those the Constant Correlation Model, Traditional Feedforward Neural Networks and LSTM. The Constant Correlation model performed the best on the dataset of our 150 S&P500 stocks among the financial models. Its performance, however, was far from the predictive potential of even the traditional neural networks. As expected, the traditional neural networks performed better than all the financial models while LSTM provided better results than that of traditional neural networks because of their capability to handle sequential data well. Surprisingly, the MSE value of the ARIMA-LSTM hybrid model was
 almost one-tenth of all the other models considered for comparison. The MAE metric showed similar results as well. Table 4.1 demonstrates all metric values for both train and test set, for each model. For each metric, the lowest values are boldfaced. Here we can conveniently see how all the ARIMA-LSTM model metric values are in boldface.
